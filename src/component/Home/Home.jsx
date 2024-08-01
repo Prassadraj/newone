@@ -22,7 +22,7 @@ function Home() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="font-poppins">
+    <div className="font-poppins w-full overflow-hidden">
       <Section1 />
       <Section2 />
       <Section3 />

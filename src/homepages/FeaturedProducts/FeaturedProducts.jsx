@@ -62,12 +62,12 @@ const FeaturedProducts = () => {
         <HorizontalScrollCarousel cards={featuredCards} />
       </div>
       {/* Add a mobile-friendly version if needed */}
-      <div className="md:hidden px-3 mb-4">
+      <div className="md:hidden px-10 mb-4 mt-4">
         <div className="scrollable-container flex overflow-x-scroll space-x-4 py-4">
           {featuredCards.map((product, i) => (
             <div
               key={i}
-              className="flex-shrink-0 flex flex-col items-center w-32 h-fit"
+              className="flex-shrink-0 flex flex-col items-center w-44 h-fit"
             >
               <div className="h-44 flex items-center justify-center">
                 <img src={product.url} className="w-32 object-cover" alt="" />
